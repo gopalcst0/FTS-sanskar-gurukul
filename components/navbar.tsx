@@ -33,7 +33,10 @@ export function Navbar() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <span className="hidden sm:inline font-bold text-primary text-lg">FTS SANSKAR GURUKUL</span>
+            <div className="flex flex-col leading-tight">
+              <span className="font-bold text-primary text-base sm:text-lg leading-tight">FTS SANSKAR GURUKUL</span>
+              <span className="text-sm text-black font-medium dark:text-black">FTS Yuva National</span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
